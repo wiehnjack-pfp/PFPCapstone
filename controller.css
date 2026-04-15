@@ -253,13 +253,12 @@ body{
 /* GRID */
 .grid{
   display:grid;
-  grid-template-columns:repeat(5, minmax(0, 1fr));
+  grid-template-columns:1fr;
   gap:10px;
-  align-items:stretch;
 }
 
 .clearBtn{
-  grid-column:1 / -1;
+  grid-column:auto;
 }
 
 /* PERSONA BUTTON */
